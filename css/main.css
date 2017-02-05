@@ -1,22 +1,25 @@
 
 #absatz {
 
-margin-top: 100px;
+margin-top: 50px;
+padding-bottom: 50px;
 
 }
 
 
 #footerText {
 
-padding-top: 30px;
-padding-left: 15px;
+padding-top: 20px;
+padding-right: 15px;
+text-align: right;
 }
 
 
 .footer {
 
-height: 100px;
+height: 70px;
 width: auto;
+padding-bottom: 50px;
 
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,207cca+19,2989d8+50,7db9e8+100 */
 background: #1e5799; /* Old browsers */
@@ -24,5 +27,11 @@ background: -moz-linear-gradient(left,  #1e5799 0%, #207cca 19%, #2989d8 50%, #7
 background: -webkit-linear-gradient(left,  #1e5799 0%,#207cca 19%,#2989d8 50%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to right,  #1e5799 0%,#207cca 19%,#2989d8 50%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+
+}
+
+
+.clearBottom {
+height: 50px;
 
 }
